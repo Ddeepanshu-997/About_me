@@ -1,0 +1,488 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: url('https://i.ibb.co/vQ4W0Lw/naruto-4k-wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f4f4f9;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f4f4f9;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #f4f4f9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-portrait {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #f4f4f9;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+section {
+    padding: 4rem 1rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #e3e3e3;
+}
+
+.about p, .achievements ul, .project-item {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.projects .project-item {
+    margin-bottom: 2rem;
+}
+
+.project-item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 0.8rem;
+    background: #004080; /* Navy blue accent */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background: #003366;
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    color: #f4f4f9;
+    text-decoration: none;
+}
+
+.resume-button {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.8rem 1.5rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume-button:hover {
+    background: #0056b3;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f4f4f9;
+    text-align: center;
+    padding: 1rem;
+}
+
+.quick-links a {
+    color: #f4f4f9;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.quick-links a:hover {
+    color: #007bff;
+}
+
+.cta {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+/* Professional Life Section */
+.professional-life {
+    padding: 4rem 1rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #333;
+    text-align: center;
+}
+
+.professional-life h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.professional-life .intro {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.professional-life .education {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.professional-life .education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.professional-life .education li {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.professional-life .education li strong {
+    font-weight: 700;
+}
+
+.professional-life .education li em {
+    font-style: italic;
+    color: #777;
+}
+/* My Life Section */
+.my-life {
+    padding: 4rem 1rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #333;
+    text-align: center;
+}
+
+.my-life h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.my-life .intro {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.my-life .life-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.my-life .life-details .text {
+    width: 45%;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.my-life .life-details .image {
+    width: 45%;
+    text-align: center;
+}
+
+.my-life .life-details img {
+    width: 75%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-life .life-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.my-life .life-details p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+/* Sports and Cultural Programs Section */
+.sports-cultural {
+    padding: 4rem 1rem;
+    background-color: rgba(240, 240, 240, 0.85);
+    color: #333;
+    text-align: center;
+}
+
+.sports-cultural h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sports-cultural .intro {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.sports-cultural .activity-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.sports-cultural .activity-details .text {
+    width: 45%;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.sports-cultural .activity-details .image {
+    width: 45%;
+    text-align: center;
+}
+
+.sports-cultural .activity-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sports-cultural .activity-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.sports-cultural .activity-details p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+/* Social Work Section */
+.social-work {
+    padding: 4rem 1rem;
+    background-color: rgba(240, 240, 240, 0.85);
+    color: #333;
+    text-align: center;
+}
+
+.social-work h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.social-work .intro {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.social-work .work-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.social-work .work-details .text {
+    width: 45%;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.social-work .work-details .image {
+    width: 45%;
+    text-align: center;
+}
+
+.social-work .work-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-work .work-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social-work .work-details p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+/* Buttons Hover Effect */
+button, .button {
+    background-color: #007BFF; /* Primary button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+}
+
+/* Links Hover Effect */
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+    border-bottom: 2px solid #0056b3; /* Underline effect */
+}
+
+/* For buttons that look like links */
+.link-button {
+    background: none;
+    border: none;
+    color: #007BFF;
+    font-size: 1rem;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.link-button:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+/* Welcome Text Styling */
+.welcome-text {
+    position: fixed; /* Keep it fixed to the viewport */
+    top: 10%; /* Adjust as needed */
+    left: -100%; /* Start off-screen */
+    font-size: 2.5rem; /* Adjust font size */
+    font-weight: bold;
+    color: #ff0008; /* Primary color */
+    z-index: 9999; /* Make sure it appears on top */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: slideIn 5s ease-in-out forwards; /* Animation properties */
+}
+
+/* Slide-in Animation */
+@keyframes slideIn {
+    0% {
+        left: -100%; /* Start off-screen */
+    }
+    50% {
+        left: 50%; /* Move to the center */
+        transform: translateX(-50%);
+    }
+    100% {
+        left: 100%; /* Move off the screen */
+    }
+}
+/* Exit Text Styling */
+.exit-text {
+    position: fixed; /* Keep it fixed to the viewport */
+    bottom: 10%; /* Adjust as needed */
+    right: -100%; /* Start off-screen */
+    font-size: 2.5rem; /* Adjust font size */
+    font-weight: bold;
+    color: #FF5733; /* Accent color */
+    z-index: 9999; /* Ensure it appears on top */
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: none; /* Hide initially */
+    animation: slideOut 5s ease-in-out forwards; /* Animation properties */
+}
+
+/* Slide-out Animation */
+@keyframes slideOut {
+    0% {
+        right: -100%; /* Start off-screen */
+    }
+    50% {
+        right: 50%; /* Move to the center */
+        transform: translateX(50%);
+    }
+    100% {
+        right: 100%; /* Exit off the screen */
+    }
+}
+
+
